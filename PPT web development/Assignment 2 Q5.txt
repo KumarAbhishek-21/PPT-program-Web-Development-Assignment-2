@@ -1,0 +1,9 @@
+Content Box (default):
+
+->With box-sizing: content-box, the total width and height of an element are calculated by considering only the content area.
+->In this mode, any padding, border, or margin added to the element is in addition to its specified width and height.
+
+Border Box:
+
+->With box-sizing: border-box, the total width and height of an element are calculated by including the content, padding, and border within the specified width and height.
+->In this mode, any padding and border are included in the specified width and height of the element. This means that the content area may shrink to accommodate the padding and border, maintaining the specified dimensions.

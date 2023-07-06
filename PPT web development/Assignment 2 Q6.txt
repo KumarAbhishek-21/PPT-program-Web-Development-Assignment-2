@@ -1,0 +1,7 @@
+Stacking Context: Each positioned element with a z-index value other than auto creates a stacking context. A stacking context is a hierarchical structure that determines the order in which elements are stacked. Elements within the same stacking context are stacked relative to each other.
+
+Stacking Order: Elements with a higher z-index value are stacked in front of elements with a lower z-index value within the same stacking context. If two elements have the same z-index, the one that appears later in the HTML structure will be stacked on top.
+
+Parent-Child Relationship: The z-index property is applied within the parent-child relationship. If a parent element has a specific z-index, its children will be stacked within the parent's stacking context, and the parent's stacking order will be compared to other stacking contexts.
+
+Positioned Elements: The z-index property only applies to positioned elements, which means elements with a position value of relative, absolute, fixed, or sticky. Elements with a static position are not affected by the z-index property.

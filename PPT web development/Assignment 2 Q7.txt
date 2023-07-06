@@ -1,0 +1,9 @@
+->Flexbox is a one-dimensional layout system, while Grid is a two-dimensional layout system.
+
+->Flexbox is designed for arranging elements along a single axis, while Grid allows for precise control over both the horizontal and vertical dimensions.
+
+->Flexbox is ideal for flexible and dynamic layouts, such as navigation menus or centering elements, while Grid is suitable for creating complex grid-based layouts with rows and columns.
+
+->Flexbox works well for arranging items within a container, while Grid is better for creating overall page structure and complex layouts.
+
+->Flexbox is generally simpler to understand and use, while Grid offers more fine-grained control and functionality.

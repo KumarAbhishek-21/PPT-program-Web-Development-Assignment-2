@@ -1,0 +1,21 @@
+Inline:
+
+->Inline elements are displayed within the normal flow of text, without starting a new line.
+->They do not have a width or height property and are sized based on their content.
+->Inline elements do not accept margin and padding on the top and bottom but can have margin and padding on the left and right.
+->Examples of inline elements include <span>, <a>, <strong>, and <em>.
+
+Inline-block:
+
+->Inline-block elements are displayed inline by default, but they behave as block-level elements regarding the box model.
+->They can have a width and height property, and other elements can sit alongside them on the same line.
+->Inline-block elements can accept margin, padding, and other box-model properties on all sides.
+->Examples of inline-block elements include <input>, <button>, and <img>.
+
+Block:
+
+->Block-level elements start on a new line and occupy the full width available.
+->They have a width and height property, by default taking up the full available width.
+->Block elements stack vertically, and each block-level element starts on a new line.
+->Block elements accept margin, padding, and other box-model properties on all sides.
+->Examples of block-level elements include <div>, <p>, <h1> to <h6>, and <section>.
